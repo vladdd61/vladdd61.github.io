@@ -1,7 +1,3 @@
-.container {
-  position: relative;
-}
-
 .head {
   position: absolute;
   left: 600px;
@@ -16,22 +12,17 @@
   left: 100px;
   width: 500px;
   height: 20px;
+  border-radius: 500em 0 0 500em;
   background: linear-gradient(to right,#074e7a , #086ba8 20%, #0a7bc2 40%, #0b8dde 60%, #0a9cf7 80%);
 }
-.tentacleend1 {
-  position: absolute;
-  left:90px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background:#074e7a ;
-}
+
 .tentacle2{
   position: absolute;
   left: 200px;
   top: 28px;
   width: 400px;
   height: 20px;
+  border-radius: 500em 0 0 500em;
   background: linear-gradient(to right, #086ba8 , #0a7bc2 25%, #0b8dde 50%, #0a9cf7 75%);
 }
 .tentacle3{
@@ -40,6 +31,7 @@
   top: 48px;
   width: 400px;
   height: 20px;
+  border-radius: 500em 0 0 500em;
   background: linear-gradient(to right, #086ba8 , #0a7bc2 25%, #0b8dde 50%, #0a9cf7 75%);
 }
 .tentacle4{
@@ -48,7 +40,8 @@
   top: 68px;
   width: 350px;
   height: 20px;
-  background: linear-gradient(to right,  #086ba8 , #0a7bc2 14%, #0b8dde 42%, #0a9cf7 70%);
+  border-radius: 500em 0 0 500em;
+  background: linear-gradient(to right, #086ba8 , #0a7bc2 14%, #0b8dde 42%, #0a9cf7 70%);
 }
 .tentacle5{
   position: absolute;
@@ -56,15 +49,17 @@
   top: 88px;
   width: 300px;
   height: 20px;
+  border-radius: 500em 0 0 500em;
   background: linear-gradient(to right, #0a7bc2 , #0b8dde 33%, #0a9cf7 66%);
 }
 .tentacle6{
   position: absolute;
-  left: 400px;
+  left: 350px;
   top: 108px;
-  width: 200px;
+  width: 250px;
   height: 20px;
-  background: linear-gradient(to right, #0b8dde , #0a9cf7 50%);
+  border-radius: 500em 0 0 500em;
+  background: linear-gradient(to right,#0a7bc2 , #0b8dde 20% , #0a9cf7 60%);
 }
 .tentacle7{
   position: absolute;
@@ -72,94 +67,33 @@
   top: 128px;
   width: 200px;
   height: 20px;
+  border-radius: 500em 0 0 500em;
   background: linear-gradient(to right, #0b8dde , #0a9cf7 50%);
 }
 .tentacle8{
   position: absolute;
-  left: 500px;
+  left: 400px;
   top: 148px;
+  width: 200px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: linear-gradient(to right, #0b8dde , #0a9cf7 50%);
+}
+.tentacle9{
+  position: absolute;
+  left: 500px;
+  top: 168px;
   width: 100px;
-  height: 60px;
-  background: #0a9cf7;
-}
-.tentacleend2 {
-  position: absolute;
-  left:190px;
-  top:28px;
-  width: 10px;
   height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background:#086ba8 ;
-}
-.tentacleend3 {
-  position: absolute;
-  left:190px;
-  top:48px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background:#086ba8 ;
-}
-.tentacleend4 {
-  position: absolute;
-  left:240px;
-  top:68px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background:#086ba8 ;
-}
-.tentacleend5 {
-  position: absolute;
-  left:290px;
-  top:88px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background: #0a7bc2 ;
-}
-.tentacleend6 {
-  position: absolute;
-  left:390px;
-  top:108px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background: #0b8dde ;
-}
-.tentacleend7 {
-  position: absolute;
-  left:390px;
-  top:128px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background: #0b8dde ;
-}
-.tentacleend8 {
-  position: absolute;
-  left:490px;
-  top:148px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  border-radius: 500em 0 0 500em;
   background: #0a9cf7 ;
 }
-.tentacleend9 {
+.tentacle10{
   position: absolute;
-  left:490px;
-  top:168px;
-  width: 10px;
+  left: 500px;
+  top: 188px;
+  width: 100px;
   height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  background: #0a9cf7 ;
-}
-.tentacleend10 {
-  position: absolute;
-  left:490px;
-  top:188px;
-  width: 10px;
-  height: 20px;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  border-radius: 500em 0 0 500em;
   background: #0a9cf7 ;
 }
