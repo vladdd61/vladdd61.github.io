@@ -1,99 +1,398 @@
+.icon1{
+   position: absolute;
+    top:80px;
+  left: 100px;
+  width: 200px;
+  height: 20px;
+  border-radius: 500em 500em 500em 500em;
+  background: #e8cadc;
+}
+.icon2{
+   position: absolute;
+    top:80px;
+  left: 400px;
+  width: 200px;
+  height: 20px;
+  border-radius: 500em 500em 500em 500em;
+  background: silver;
+}
 .head {
   position: absolute;
+  top: 200px;
   left: 600px;
   width: 100px; 
-  height: 200px;
+  height: 300px;
   border-radius: 0 100% 100% 0 / 0 50% 50% 0;
-  background: #0a9cf7;
+  background: #e8cadc;
+  z-index: 2;
+}
+.head2 {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  width: 100px; 
+  height: 340px;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  background: silver;
+  z-index: 1;
+}
+.eye {
+  position: absolute;
+  top: 250px;
+  left: 630px;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  border-radius: 50%;
+  z-index: 3;
+}
+.eye2 {
+  position: absolute;
+  top: 500px;
+  left: 630px;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  border-radius: 50%;
+  z-index: 3;
+}
+.line1{
+  position: absolute;
+  top: 160px;
+  left:100px;
+  width:2px;
+  height: 380px;
+  background:#e8cadc;
+}
+.line2{
+  position: absolute;
+  top: 160px;
+  left:200px;
+  width:2px;
+  height: 380px;
+  background:#e8cadc;
+}
+.line3
+{
+  position: absolute;
+  top: 160px;
+  left:300px;
+  width:2px;
+  height: 380px;
+  background:#e8cadc;
+}
+.line4
+{
+  position: absolute;
+  top: 160px;
+  left:400px;
+  width:2px;
+  height: 380px;
+  background:#e8cadc;
+}
+.line5
+{
+  position: absolute;
+  top: 160px;
+  left:500px;
+  width:2px;
+  height: 380px;
+  background:#e8cadc;
 }
 
 .tentacle1{
   position: absolute;
-  left: 100px;
-  width: 500px;
+    top:200px;
+  left: 300px;
+  width: 300px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right,#074e7a , #086ba8 20%, #0a7bc2 40%, #0b8dde 60%, #0a9cf7 80%);
+  background: #e8cadc;
+     z-index: 1;
 }
 
 .tentacle2{
   position: absolute;
-  left: 200px;
-  top: 28px;
-  width: 400px;
+  left: 350px;
+  top: 220px;
+  width: 250px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right, #086ba8 , #0a7bc2 25%, #0b8dde 50%, #0a9cf7 75%);
+  background: #e8cadc;
+     z-index: 1;
 }
 .tentacle3{
   position: absolute;
   left: 200px;
-  top: 48px;
+  top: 240px;
   width: 400px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right, #086ba8 , #0a7bc2 25%, #0b8dde 50%, #0a9cf7 75%);
+  background: #e8cadc;
+     z-index: 1;
 }
 .tentacle4{
   position: absolute;
-  left: 250px;
-  top: 68px;
-  width: 350px;
-  height: 20px;
-  border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right, #086ba8 , #0a7bc2 14%, #0b8dde 42%, #0a9cf7 70%);
-}
-.tentacle5{
-  position: absolute;
-  left: 300px;
-  top: 88px;
-  width: 300px;
-  height: 20px;
-  border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right, #0a7bc2 , #0b8dde 33%, #0a9cf7 66%);
-}
-.tentacle6{
-  position: absolute;
   left: 350px;
-  top: 108px;
+  top: 260px;
   width: 250px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right,#0a7bc2 , #0b8dde 20% , #0a9cf7 60%);
+  background: #e8cadc;
+     z-index: 1;
+}
+.tentacle5{
+  position: absolute;
+  left: 450px;
+  top: 280px;
+  width: 150px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc;
+     z-index: 1;
+}
+.tentacle6{
+  position: absolute;
+  left: 400px;
+  top: 300px;
+  width: 200px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc;
+     z-index: 1;
 }
 .tentacle7{
   position: absolute;
-  left: 400px;
-  top: 128px;
-  width: 200px;
+  left: 450px;
+  top: 320px;
+  width: 150px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right, #0b8dde , #0a9cf7 50%);
+  background:#e8cadc;
+     z-index: 1;
 }
 .tentacle8{
   position: absolute;
-  left: 400px;
-  top: 148px;
-  width: 200px;
+  left: 350px;
+  top: 340px;
+  width: 250px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: linear-gradient(to right, #0b8dde , #0a9cf7 50%);
+  background: #e8cadc;
+     z-index: 1;
 }
 .tentacle9{
   position: absolute;
-  left: 500px;
-  top: 168px;
-  width: 100px;
+  left: 250px;
+  top: 360px;
+  width: 350px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: #0a9cf7 ;
+  background: #e8cadc ;
 }
 .tentacle10{
   position: absolute;
+  left: 350px;
+  top: 380px;
+  width: 250px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc ;
+     z-index: 1;
+}
+.tentacle11{
+  position: absolute;
+  left: 450px;
+  top: 400px;
+  width: 150px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc ;
+     z-index: 1;
+}
+.tentacle12{
+  position: absolute;
+  left: 350px;
+  top: 420px;
+  width: 250px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc ;
+     z-index: 1;
+}
+.tentacle13{
+  position: absolute;
+  left: 400px;
+  top: 440px;
+  width: 200px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc ;
+     z-index: 1;
+}
+.tentacle14{
+  position: absolute;
+  left: 350px;
+  top: 460px;
+  width: 250px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: #e8cadc ;
+     z-index: 1;
+}
+.tentacle15{
+  position: absolute;
   left: 500px;
-  top: 188px;
+  top: 480px;
   width: 100px;
   height: 20px;
   border-radius: 500em 0 0 500em;
-  background: #0a9cf7 ;
+  background: #e8cadc ;
+     z-index: 1;
 }
+.tentacle1future{
+  position: absolute;
+  top:200px;
+  left: 250px;
+  width: 350px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver;
+}
+
+.tentacle2future{
+  position: absolute;
+  left: 250px;
+  top: 220px;
+  width: 350px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver; 
+}
+.tentacle3future{
+  position: absolute;
+  left: 150px;
+  top: 240px;
+  width: 450px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver;
+}
+.tentacle4future{
+  position: absolute;
+  left: 300px;
+  top: 260px;
+  width: 300px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver;
+}
+.tentacle5future{
+  position: absolute;
+  left: 300px;
+  top: 280px;
+  width: 300px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver;
+}
+.tentacle6future{
+  position: absolute;
+  left: 250px;
+  top: 300px;
+  width: 350px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver;
+}
+.tentacle7future{
+  position: absolute;
+  left: 350px;
+  top: 320px;
+  width: 250px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background:silver;
+}
+.tentacle8future{
+  position: absolute;
+  left: 300px;
+  top: 340px;
+  width: 300px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver;
+}
+.tentacle9future{
+  position: absolute;
+  left: 450px;
+  top: 360px;
+  width: 150px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+}
+.tentacle10future{
+  position: absolute;
+  left: 200px;
+  top: 380px;
+  width: 400px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+}
+.tentacle11future{
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  width: 300px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+}
+.tentacle12future{
+  position: absolute;
+  left: 250px;
+  top: 420px;
+  width: 350px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+   z-index: 1;
+}
+.tentacle13future{
+  position: absolute;
+  left: 250px;
+  top: 440px;
+  width: 350px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+}
+.tentacle14future{
+  position: absolute;
+  left: 300px;
+  top: 460px;
+  width: 300px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+}
+.tentacle16future{
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  width: 100px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+   }
+  .tentacle17future{
+  position: absolute;
+  left: 500px;
+  top: 520px;
+  width: 100px;
+  height: 20px;
+  border-radius: 500em 0 0 500em;
+  background: silver ;
+   }
