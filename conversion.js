@@ -23,7 +23,7 @@ const Conversion = (dnk) => {
 					break;
 
 				default:
-					rnk += "?";
+					return "Введен неверный нуклеотид";
 			}
 		}
 	}
