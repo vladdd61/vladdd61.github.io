@@ -1,32 +1,32 @@
-const Conversion = (dnk)=> {
-let rnk = '';
-for(let i = 0; i<dnk.length; i++){
-  if (dnk === " "){
-    return " ";
-  }
-  else {
-  switch (dnk[i]){
-    case 'G':
-    rnk += 'C';
-    break;
+const Conversion = (dnk) => {
+	let rnk = '';
+	let upstr = dnk.toUpperCase();
+	for (let i = 0; i < upstr.length; i++) {
+		if (upstr === " ") {
+			return " ";
+		} else {
+			switch (upstr[i]) {
+				case 'G':
+					rnk += 'C';
+					break;
 
-    case 'C':
-    rnk += 'G';
-    break;
+				case 'C':
+					rnk += 'G';
+					break;
 
-    case 'T':
-    rnk += 'A';
-    break;
+				case 'T':
+					rnk += 'A';
+					break;
 
-    case 'A':
-    rnk += 'U';
-    break;
+				case 'A':
+					rnk += 'U';
+					break;
 
-    default :
-    rnk +=" ";
-  }
-  }
-}
-return rnk;
+				default:
+					rnk += "?";
+			}
+		}
+	}
+	return rnk;
 }
 export default Conversion;
