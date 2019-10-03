@@ -1,4 +1,7 @@
 const isPalindrom = str =>{
+  if (str === null){
+    return null;
+  }
   str = String(str.replace(/\s/g, '')).toLocaleLowerCase();
   if (str.length < 2){
     return true;
