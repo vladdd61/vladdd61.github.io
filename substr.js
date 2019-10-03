@@ -1,13 +1,9 @@
 const substr = (str, a = 0, b = str.length) => {
-     if ( a > str.length){
-      return  " ";
-    }
-
     if (a < 0){
        a = 0;
     }
      if (a > str.length){
-       a = " ";
+       return " " ;
     }
    if (b < 0){
        b = 1;
