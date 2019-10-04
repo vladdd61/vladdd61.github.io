@@ -1,16 +1,9 @@
-const isPalindrom = str =>{
-  if (str === null){
-    return null;
-  }
-  str = String(str.replace(/\s/g, '')).toLocaleLowerCase();
-  if (str.length < 2){
-    return true;
-  }
-  else if (str[0]==str[str.length-1]){
-    return isPalindrom(str.substr(1, str.length-2));
-  }
-  else {
-    return "not a palindrom";
-  }
+const isPalindrom = str => {
+if (str === null){
+  return null;
+}
+str = String(str.replace(/\s/g, '')).toLocaleLowerCase();
+let result = (str.length < 2) ? true : (str[0]==str[str.length-1]) ? isPalindrom(str.substr(1, str.length-2)) : "not a palindrom";
+return result;
 }
 export default isPalindrom;
