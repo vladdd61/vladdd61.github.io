@@ -1,10 +1,10 @@
-const apply = (q, f, arg) => {
-   if (q === 0) {
+const apply = (quantity, func, arg) => {
+   if (quantity === 0) {
      return arg;
    } 
-   if (q < 0) {
+   if (quantity < 0) {
      return "Not negative";
    }
-   return apply (q-1, f, f(arg)); 
+   return apply (quantity-1, func, func(arg)); 
 }
 export default apply;
