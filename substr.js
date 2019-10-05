@@ -1,21 +1,21 @@
-const substr = (str, start = 0, length = str.length) => {
-    if (start < 0){
-       start = 0;
+const substr = (str, startingIndex = 0, lengthString = str.length) => {
+    if (startingIndex < 0){
+       startingIndex = 0;
     }
-     if (start > str.length){
+     if (startingIndex > str.length){
        return " " ;
     }
-   if (length < 0){
-       length = 1;
+   if (lengthString < 0){
+       lengthString = 1;
     } 
-   if (length > str.length) {
-       length = str.length;
+   if (lengthString > str.length) {
+       lengthString = str.length;
     }
-   if ((start + length) > str.length){
-      length -= start;
+   if ((startingIndex + lengthString) > str.length){
+      lengthString -= startingIndex;
     }
  let result = ""; 
-  for (let i = start; i < start + length ; i++){
+  for (let i = startingIndex; i < startingIndex + lengthString ; i++){
   result += str[i];
     }
  return result;
